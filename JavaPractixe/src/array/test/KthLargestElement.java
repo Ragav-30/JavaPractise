@@ -4,8 +4,8 @@ public class KthLargestElement {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] a = { 1, 3, 2, 7 };
-		int val = 4;
+		int[] a = { 1, 3, 2, 7, 8, 7, 9, 76, 78, 56 };
+		int val = 1;
 		int kthmax = max(a, val);
 		System.out.println(kthmax);
 	}
